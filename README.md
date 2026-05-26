@@ -31,12 +31,12 @@ reservados o invisibles dentro de un literal de tipo string.
   En C#, colocar los caracteres @ y $ (en cualquier orden, como $@ o @$) antes de una cadena activa dos funciones simultáneamente: interpolación de cadenas 
 y literales textuales.
 
-  1. **El símbolo $ (Interpolación)**
+  1. **El símbolo $ (Interpolación)**<br/>
      Permite inyectar variables, expresiones o llamadas a métodos directamente dentro del texto envolviéndolos en llaves {}.
      
      * Ejemplo: $"Hola, {nombre}"
     
-  3. **El símbolo @ (Literal Textual)**
+  3. **El símbolo @ (Literal Textual)**<br/>
      Le indica al compilador que ignore las secuencias de escape (como \n o \t) y que tome el texto exactamente como fue escrito, incluyendo los saltos de línea.
      
      * Ejemplo: @$"Línea 1\nLínea 2" (El texto se mostrará en dos líneas distintas y la \n no se interpretará como un salto de línea).
