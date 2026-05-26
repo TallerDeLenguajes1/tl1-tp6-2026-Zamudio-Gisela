@@ -55,7 +55,7 @@
 
 int opcion, repetir = 0;
 float num1, num2, resultado;
-bool esopInt, esnum1Int, esnum2Int, esrepInt;
+bool esopInt, esnum1float, esnum2float, esrepInt;
 
 do
 {
@@ -81,24 +81,24 @@ do
     do
     {
         Console.WriteLine("Ingrese en primer numero: ");
-        esnum1Int = float.TryParse(Console.ReadLine(), out num1);
+        esnum1float = float.TryParse(Console.ReadLine(), out num1);
 
-        if (!esnum1Int)
+        if (!esnum1float)
         {
             Console.WriteLine("El valor ingresado no es un numero");
         }
-    } while (!esnum1Int);
+    } while (!esnum1float);
 
     do
     {
         Console.WriteLine("Ingrese el segundo numero: ");
-        esnum2Int = float.TryParse(Console.ReadLine(), out num2);
+        esnum2float = float.TryParse(Console.ReadLine(), out num2);
 
-        if (!esnum2Int)
+        if (!esnum2float)
         {
             Console.WriteLine("El valor ingresado no es un numero");
         }
-    } while (!esnum2Int);
+    } while (!esnum2float);
 
 
     switch (opcion)
