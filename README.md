@@ -11,20 +11,20 @@ especialmente al trabajar con cadenas largas o cuando es necesario copiarlas o t
 
 ## ¿Qué secuencias de escape tiene el tipo string?
 
-En C#, las secuencias de escape se representan con una barra invertida (\) seguida de un carácter específico. Se utilizan para insertar caracteres 
+En C#, las secuencias de escape se representan con una barra invertida seguida de un carácter específico. Se utilizan para insertar caracteres 
 reservados o invisibles dentro de un literal de tipo string. 
 
-  *  \'    Comilla Simple
-  *  \"    Comilla Doble
-  *  \\    Barra Invertida
-  *  \0    Caracter Nulo
-  *  \a    Alerta (emite un sonido de sistema)
-  *  \b    Retroceso
-  *  \f    Salto de Pagina
-  *  \n    Salto de Linea
-  *  \r    Retorno de Carro
-  *  \t    Tabulacion Horizontal
-  *  \v    Tabulacion Vertical
+  *   \'    Comilla Simple
+  *   \"    Comilla Doble
+  *   \\    Barra Invertida
+  *   \0    Caracter Nulo
+  *   \a    Alerta (emite un sonido de sistema)
+  *   \b    Retroceso
+  *   \f    Salto de Pagina
+  *   \n    Salto de Linea
+  *   \r    Retorno de Carro
+  *   \t    Tabulacion Horizontal
+  *   \v    Tabulacion Vertical
 
 ## ¿Qué sucede cuando utiliza el carácter @ y $ antes de una cadena de texto?
 
