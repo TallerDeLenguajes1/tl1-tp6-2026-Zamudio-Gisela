@@ -11,7 +11,7 @@ especialmente al trabajar con cadenas largas o cuando es necesario copiarlas o t
 
 ## ¿Qué secuencias de escape tiene el tipo string?
 
-En C#, las secuencias de escape se representan con una barra invertida seguida de un carácter específico. Se utilizan para insertar caracteres 
+En C#, las secuencias de escape se representan con una barra invertida (\) seguida de un carácter específico. Se utilizan para insertar caracteres 
 reservados o invisibles dentro de un literal de tipo string. 
 
   *  \'    Comilla Simple
